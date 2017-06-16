@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calculator_wrap">
+
+    <!-- <div class="row_1"> -->
+        <!-- <input type="text" value="0" readonly> -->
+            <input type="button" class="operator" name="button_clear" id="clear" value="CE" onclick="clearDisplay"/>
+            <div class="calculator" id="calc">
+            <input type="text" class="display" id="display" name="display" value="">
+            </div>
+            <input type="submit" class="num" name="button_7" value="7" onclick="numInput('7')"/>
+            <input type="submit" class="num" name="button_8" value="8" onclick="numInput('8')"/>
+            <input type="submit" class="num" name="button_9" value="9" onclick="numInput('9')"/>
+            <input type="submit" class="operator" name="divide" value="&divide" onclick="setOperation('divide')"/>
+            <input type="submit" class="num" name="button_4" value="4" onclick="numInput('4')"/>
+            <input type="submit" class="num" name="button_5" value="5" onclick="numInput('5')"/>
+            <input type="submit" class="num" name="button_6" value="6" onclick="numInput('6')"/>
+            <input type="submit" class="operator" name="multiply" value="x" onclick="setOperation('multiply')"/>
+            <input type="submit" class="num" name="button_1" value="1" onclick="numInput('1')"/>
+            <input type="submit" class="num" name="button_2" value="2" onclick="numInput('2')"/>
+            <input type="submit" class="num" name="button_3" value="3" onclick="numInput('3')"/>
+            <input type="submit" class="operator" name="subtract" value="-" onclick="setOperation('subtract')"/>
+            <input type="submit" class="num" name="button_0" value="0" onclick="numInput('0')"/>
+            <input type="submit" class="num" name="decimal" value="." onclick="insertDecimal('.')"/> <!-- FIX THIS -->
+            <input type="submit" class="operator" name="equals" value="=" onclick="calculate()"/>
+            <input type="submit" class="operator" name="add" value="+" onclick="setOperation('add')"/>
+  </div>
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

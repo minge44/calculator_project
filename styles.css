@@ -1,0 +1,61 @@
+/*327*/
+/*409*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.calculator_wrap {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 405px;
+  width: 324px;
+  background-color: #61B350;
+  margin: auto;
+}
+.buttonClear {
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 81px;
+  height: 81px;
+  background-color: #61B350;
+  color: white;
+}
+.calculator {
+  display: flex;
+  align-items: center;
+  width: 242px;
+  height: 81px;
+  background-color: #61B350;
+  color: white;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    width: 242px;
+    height: 30px;
+    font-size: 25px;
+
+}
+.num {
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 81px;
+  height: 81px;
+  background-color: #61B350;
+  color: white;
+}
+.operator {
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 81px;
+  height: 81px;
+  background-color: #61B350;
+  color: white;
+}
